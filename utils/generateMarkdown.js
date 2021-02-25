@@ -1,3 +1,4 @@
+// functions to grab function badges, links, and selection
 function renderLicenseBadge(license) {
   if (license !== "None") {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
@@ -25,57 +26,57 @@ This project is licensed under the ${license} license.`
   return ''
 }
 
+
+// function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}
+
+## Table of contents
+
+*[Description](#Description)
+
+*[Installation](#Installation)
+
+*[Contribute](#Contribute)
+
+*[Testing](#Testing)
+
+*[Credits](#Credits)
+
+*[Contact](#Contact)
+
+*[License](#License)
+
 
 ## Description
-
 ${data.description}
 
-## Table of Contents 
+## Installation 
+${data.install}
 
-* [Installation](#installation)
+## Contribute
+${data.contribute}
 
-* [Usage](#usage)
-${renderLicenseLink(data.license)}
-* [Contributing](#contributing)
-
-* [Tests](#tests)
-
-* [Questions](#questions)
-
-## Installation
-
-To install necessary dependencies, run the following command:
-
-\`\`\`
-${data.installation}
-\`\`\`
-
-## Usage
-
-${data.usage}
-
-${renderLicenseSection(data.license)}
-  
-## Contributing
-
-${data.contributing}
-
-## Tests
-
-To run tests, run the following command:
-
-\`\`\`
+## Testing
 ${data.test}
-\`\`\`
 
-## Questions
+## Credits
+### Collaborators on this project
+${data.credits}
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+## Contact
+Questions about this project should be sent to ${data.email}
 
+## License
+${renderLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
+
+
+
+
+By ${data.GitHub} on github
 `;
 }
-
-module.exports = generateMarkdown; 
+// exporting the generateMarkdown function to be used in the main script
+module.exports = generateMarkdown;
