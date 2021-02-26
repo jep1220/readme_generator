@@ -1,4 +1,4 @@
-# barry
+# readme_generator
   
 
 ## Table of contents
@@ -15,27 +15,27 @@
 
 *[Contact](#Contact)
 
-*[License](#License) 
+*[License](#License)
 
 
 ## Description
-barry
+this is a readme.md file creaded by terminal command
 
 ## Installation 
-barry
+nothing this is a demo
 
 ## Contribute
-barry
+to watch and be amazed
 
 ## Testing
-barry
+nothing
 
 ## Credits
 ### Collaborators on this project
-barry
+i wish
 
 ## Contact
-Questions about this project should be sent to barry
+Questions about this project should be sent to ernieperez96@gmail.com
 
 ## License
 
@@ -44,4 +44,4 @@ Questions about this project should be sent to barry
 
 
 
-By barry on github
+By jep1220 on github
