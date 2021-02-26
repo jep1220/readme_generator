@@ -26,6 +26,9 @@ THEN I am taken to the corresponding section of the README
 
 link to video here: 
 
+https://drive.google.com/file/d/1hrFaRQnFPlOCO4xl-wUSxf7wKfvVc2Yh/preview
+
+https://drive.google.com/file/d/1kRuYj8o2P74uhrIa3Wh52JkTfJWMhUbK/preview
 
 ## Table of contents
 
